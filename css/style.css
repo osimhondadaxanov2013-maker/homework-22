@@ -8,6 +8,34 @@
 }
 
 .clock {
-  idspl 
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-
+#hour{
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+#minute{
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+#second{
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
