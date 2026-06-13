@@ -1,10 +1,15 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container {
   width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: radial-gradient(circle, #141e30 0%, #35577d 100%);
 }
 
 .clock {
@@ -12,30 +17,51 @@
   align-items: center;
   gap: 20px;
 }
-#hour{
-  width: 40px;
-  height: 40px;
-  background-color: blue;
+#hour {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
+  font-size: 35px;
+  font-family: cursive;
 }
-#minute{
-  width: 40px;
-  height: 40px;
-  background-color: blue;
+#minute {
+  height: 100px;
+  width: 100px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
+  font-size: 35px;
+  font-family: cursive;
 }
-#second{
-  width: 40px;
-  height: 40px;
-  background-color: blue;
+#second {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
+  font-size: 35px;
+  font-family: cursive;
 }
